@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Для запуска бэкенд части:
+
+В терминале изменить папку на ha_rep
+
+Через
+cd ha_rep
+
+затем
+Python manage.py runserver
+
+И все работать должно
+
+Чтобы в админку зайти
+
+После адреса прописать 
+/admin
+
+Затем ввести логин и пароль
+Администратор: admin
+Пароль 123456

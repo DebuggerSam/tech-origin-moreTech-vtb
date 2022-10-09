@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.wrapper{
+  width: 478px;
+  height: 1218px;
+  padding: 20px;
+  margin-top: 20px;
+  position: absolute;
+  left: 950px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container_birthday{
+  -webkit-box-shadow: 0px 0px 9px 10px rgba(235,240,245,1);
+  -moz-box-shadow: 0px 0px 9px 10px rgba(235,240,245,1);
+  box-shadow: 0px 0px 9px 10px rgba(235,240,245,1);
+  margin: 0 auto;
+  width: 400px;
+  padding: 15px;
+  height: 300px;
+  border: 2px solid #ebf0f5;
+  border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.container_scroll{
+  margin-top: 30px;
+
+  overflow: scroll;
+  height: 220px;
+}
+
+.container_birthday_subtitle{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.container_main_content{
+  position: relative;
+  top: 40px;
+  margin-top: -50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container_birthday_title{
+  font-size: 18px;
+}
+
+.container_birthday_anchor{
+  font-size: 18px;
+
+}
+
+
+.container_main_data img{
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.container_name_and_post{
+  position: relative;
+  left: 50px;
+  bottom: 44px;
+
+}
+
+.container_post{
+  font-size: 14px;
+  color: #8391A0;
+}
+
+
+hr{
+  display: block;
+  position: relative;
+  right: 40px;
+  border: 1px solid #c1c6cc;
+  margin-top: 20px;
+  width: 320px;
+}
+
+.container_main__news{
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 15px;
+  height: 300px;
+  border-radius: 25px;
 }

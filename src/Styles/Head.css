@@ -1,0 +1,85 @@
+.wrapper_header{
+    top: 50px;
+    position: absolute;
+    left: 80px;
+}
+
+.wrapper_header_container{
+    border-radius: 15px;
+    width: 900px;
+    height: 181px;
+    background: rgb(0,137,237);
+    background: linear-gradient(90deg, rgba(0,137,237,1) 0%, rgba(0,170,255,1) 35%, rgba(35,51,199,1) 100%);
+    display: flex;
+}
+
+.wrapper_header_avatar{
+    margin-top: 10px;
+    margin-left: 10px;
+    background: url("../Photos/main_avatar.png");
+    width: 160px;
+    height: 160px;
+}
+
+.wrapper_header_title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.wrapper_header_sub_title{
+    position: absolute;
+    top: 100px;
+    left: 192px;
+    font-weight: 700;
+    color: #c1c6cc;
+}
+
+.wrapper_header_sub_title_coins{
+    position: relative;
+    left: 291px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    top: 68px;
+}
+
+.wrapper_header_sub_title_coins_allow{
+    position: relative;
+    left: 164px;
+    font-size: 16px;
+    color: #c1c6cc;
+    font-weight: 700;
+    top: 98px;
+}
+
+.wrapper_header_sub_title_coins_button{
+    position: relative;
+    left: 28px;
+    font-size: 16px;
+    color: #c1c6cc;
+    font-weight: 700;
+    top: 125px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    width: 200px;
+}
+
+.wrapper_header_sub_title_coins_button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper_header_sub_title_coins_button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.wrapper_header_sub_title_coins_button a:hover{
+    color: #000;
+}

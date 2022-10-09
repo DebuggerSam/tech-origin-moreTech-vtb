@@ -1,0 +1,79 @@
+.wrapper_task{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrapper_task_block{
+    width: 400px;
+    height: 200px;
+    -webkit-box-shadow: 0px 0px 9px 10px rgba(235,240,245,1);
+    -moz-box-shadow: 0px 0px 9px 10px rgba(235,240,245,1);
+    box-shadow: 0px 0px 9px 10px rgba(235,240,245,1);
+    border-radius: 10px;
+
+}
+
+.wrapper_task1{
+    margin-right: 20px;
+}
+
+.dope{
+    margin-top: 20px;
+}
+
+.wrapper_task_block_dostig{
+    position: relative;
+    font-size: 12px;
+    left: 200px;
+}
+
+.wrapper_task_block_inp{
+    position: relative;
+    font-size: 12px;
+    left: 200px;
+    width: 180px;
+}
+
+.wrapper_task_block_mentor{
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    top: 50px;
+    left: 10px;
+}
+
+.wrapper_task_block_mentor span{
+    position: relative;
+    bottom: 8px;
+    font-weight: 0;
+    font-size: 12px;
+    color: #8391A0;
+}
+
+.wrapper_task_block_teach{
+    color: #8391A0;
+    font-size: 12px;
+    position: relative;
+    left: 5px;
+    top: 55px;
+}
+
+.wrapper_task_block_teach span{
+    border-radius: 25px;
+    padding: 5px;
+    background-color: #bfd4ea;
+    color: #0254ac;
+}
+
+.wrapper_task_block_stag{
+    color: #fff;
+    background-color: #026dde;
+    border: none;
+    font-weight: 700;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    left: 270px;
+    top: 32px;
+}

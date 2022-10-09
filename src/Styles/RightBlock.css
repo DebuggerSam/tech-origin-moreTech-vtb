@@ -1,0 +1,17 @@
+.wrapper_right-block{
+    height: 1300px;
+    width: 60px;
+    background-color: #000;
+    color: #393534;
+}
+
+.wrapper_right_block_content{
+    padding: 15px;
+    text-align: center;
+}
+.wrapper_right_block_content:hover{
+    cursor: pointer;
+    color: purple;
+    background-color: gray;
+    transition: 0.9ms ease-in;
+}
